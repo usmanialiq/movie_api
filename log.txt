@@ -1,66 +1,48 @@
-URL: /
-Timestamp: Sat Dec 03 2022 13:59:29 GMT+0700 (Indochina Time)
-
-URL: /favicon.ico
-Timestamp: Sat Dec 03 2022 13:59:29 GMT+0700 (Indochina Time)
-
-URL: /
-Timestamp: Sat Dec 03 2022 13:59:35 GMT+0700 (Indochina Time)
-
-URL: /
-Timestamp: Sat Dec 03 2022 13:59:40 GMT+0700 (Indochina Time)
-
-URL: /
-Timestamp: Sat Dec 03 2022 14:05:40 GMT+0700 (Indochina Time)
-
-URL: /
-Timestamp: Sat Dec 03 2022 14:05:43 GMT+0700 (Indochina Time)
-
-URL: /
-Timestamp: Sat Dec 03 2022 14:05:48 GMT+0700 (Indochina Time)
-
-URL: /
-Timestamp: Sat Dec 03 2022 14:08:25 GMT+0700 (Indochina Time)
-
-URL: /
-Timestamp: Sat Dec 03 2022 14:08:34 GMT+0700 (Indochina Time)
-
-URL: /
-Timestamp: Sat Dec 03 2022 14:12:34 GMT+0700 (Indochina Time)
-
-URL: /
-Timestamp: Sat Dec 03 2022 14:12:47 GMT+0700 (Indochina Time)
-
-URL: /
-Timestamp: Sat Dec 03 2022 14:12:48 GMT+0700 (Indochina Time)
-
-URL: /
-Timestamp: Sat Dec 03 2022 14:12:54 GMT+0700 (Indochina Time)
-
-URL: /
-Timestamp: Sat Dec 03 2022 14:16:33 GMT+0700 (Indochina Time)
-
-URL: /
-Timestamp: Sat Dec 03 2022 14:16:37 GMT+0700 (Indochina Time)
-
-URL: /documentation
-Timestamp: Sat Dec 03 2022 14:16:41 GMT+0700 (Indochina Time)
-
-URL: /documentation
-Timestamp: Sat Dec 03 2022 14:16:45 GMT+0700 (Indochina Time)
-
-URL: /documentatio
-Timestamp: Sat Dec 03 2022 14:16:46 GMT+0700 (Indochina Time)
-
-URL: /documentatio
-Timestamp: Sat Dec 03 2022 14:19:21 GMT+0700 (Indochina Time)
-
-URL: /documentation
-Timestamp: Sat Dec 03 2022 14:19:36 GMT+0700 (Indochina Time)
-
-URL: /documentation
-Timestamp: Sat Dec 03 2022 14:19:43 GMT+0700 (Indochina Time)
-
-URL: /documentation
-Timestamp: Sat Dec 03 2022 14:19:43 GMT+0700 (Indochina Time)
-
+::1 - - [10/Dec/2022:15:44:17 +0000] "GET /secreturl HTTP/1.1" 404 148 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15"
+::1 - - [10/Dec/2022:15:44:33 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15"
+::1 - - [10/Dec/2022:15:44:58 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15"
+::1 - - [10/Dec/2022:15:45:01 +0000] "GET /movies HTTP/1.1" 200 501 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15"
+::1 - - [10/Dec/2022:15:46:04 +0000] "GET /movies HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15"
+::1 - - [10/Dec/2022:15:46:04 +0000] "GET /movie HTTP/1.1" 404 144 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15"
+::1 - - [10/Dec/2022:15:58:53 +0000] "GET /movie HTTP/1.1" 404 144 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15"
+::1 - - [10/Dec/2022:15:58:53 +0000] "GET /movie HTTP/1.1" 404 144 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15"
+::1 - - [10/Dec/2022:15:59:02 +0000] "GET /movies HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15"
+::1 - - [10/Dec/2022:15:59:06 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15"
+::1 - - [10/Dec/2022:15:59:11 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15"
+::1 - - [10/Dec/2022:15:59:14 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15"
+::1 - - [10/Dec/2022:15:59:15 +0000] "GET /sd HTTP/1.1" 404 141 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15"
+::1 - - [10/Dec/2022:16:00:24 +0000] "GET /sd HTTP/1.1" 404 141 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15"
+::1 - - [10/Dec/2022:16:00:27 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15"
+::1 - - [10/Dec/2022:16:00:29 +0000] "GET /movies HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15"
+::1 - - [10/Dec/2022:16:00:32 +0000] "GET /movie HTTP/1.1" 404 144 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15"
+::1 - - [10/Dec/2022:16:01:34 +0000] "GET /movie HTTP/1.1" 404 144 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15"
+::1 - - [10/Dec/2022:16:02:18 +0000] "GET /movie HTTP/1.1" 404 144 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15"
+::1 - - [10/Dec/2022:16:02:20 +0000] "GET /movies HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15"
+::1 - - [10/Dec/2022:16:02:22 +0000] "GET /movie HTTP/1.1" 404 144 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15"
+::1 - - [11/Dec/2022:01:57:38 +0000] "GET /movie HTTP/1.1" 404 144 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15"
+::1 - - [11/Dec/2022:01:57:42 +0000] "GET /movies HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15"
+::1 - - [11/Dec/2022:02:00:21 +0000] "GET /movie HTTP/1.1" 404 144 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15"
+::1 - - [11/Dec/2022:02:00:29 +0000] "GET /movies HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15"
+::1 - - [11/Dec/2022:02:00:30 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15"
+::1 - - [11/Dec/2022:02:00:31 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15"
+::1 - - [11/Dec/2022:02:04:27 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15"
+::1 - - [11/Dec/2022:02:04:27 +0000] "GET /documentation HTTP/1.1" 404 152 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15"
+::1 - - [11/Dec/2022:02:07:05 +0000] "GET /documentation HTTP/1.1" 404 152 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15"
+::1 - - [11/Dec/2022:02:14:01 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15"
+::1 - - [11/Dec/2022:02:14:22 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15"
+::1 - - [11/Dec/2022:02:14:22 +0000] "GET /movies HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15"
+::1 - - [11/Dec/2022:02:14:23 +0000] "GET /movies HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15"
+::1 - - [11/Dec/2022:02:17:55 +0000] "GET /movie HTTP/1.1" 404 144 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15"
+::1 - - [11/Dec/2022:02:18:59 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15"
+::1 - - [11/Dec/2022:02:19:01 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15"
+::1 - - [11/Dec/2022:02:19:04 +0000] "GET /documentation HTTP/1.1" 200 425 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15"
+::1 - - [11/Dec/2022:02:19:23 +0000] "GET /documentation HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15"
+::1 - - [11/Dec/2022:02:19:24 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15"
+::1 - - [11/Dec/2022:02:19:25 +0000] "GET /documentation HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15"
+::1 - - [11/Dec/2022:02:19:27 +0000] "GET /documentatio HTTP/1.1" 404 151 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15"
+::1 - - [11/Dec/2022:02:19:27 +0000] "GET /documentation HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15"
+::1 - - [11/Dec/2022:02:20:52 +0000] "GET /documentatio HTTP/1.1" 404 151 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15"
+::1 - - [11/Dec/2022:02:21:25 +0000] "GET /documentation HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15"
+::1 - - [11/Dec/2022:02:37:13 +0000] "GET /documentation/ HTTP/1.1" 200 425 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15"
+::1 - - [11/Dec/2022:02:37:18 +0000] "GET /documentation HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15"
+::1 - - [11/Dec/2022:02:37:20 +0000] "GET /documentation.html HTTP/1.1" 200 425 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15"
