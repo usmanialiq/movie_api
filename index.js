@@ -18,7 +18,10 @@ let users = [
 
     {
         "id": "2",
-        "name": "devon",
+        "name": "deven",
+        "password": "1234",
+        "email": "deven27@gmail.com",
+        "birthday": "05-06-1999",
         "favoriteMovies": ["kill bill"]
     }
 
