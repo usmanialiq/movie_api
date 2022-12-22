@@ -45,16 +45,7 @@
            </tr>
         </thead>
    
-        <tbody>
-           <tr>
-               <td>Allow existing users log in</td>
-               <td>/login</td>
-               <td>POST</td>
-               <td>-</td>
-               <td>-</td>
-               <td>A JSON object holding data about the user including the hashed password</td>
-           </tr>
-   
+        <tbody>   
            <tr>
                <td>Get a list of all movies</td>
                <td>/movies</td>
@@ -90,25 +81,7 @@
                <td>-</td>
                <td>A JSON object holding data about the data of a director</td>
            </tr>
-   
-           <tr>
-               <td>Get all users</td>
-               <td>/users</td>
-               <td>GET</td>
-               <td>-</td>
-               <td>-</td>
-               <td> A JSON object holding data of all users</td>
-           </tr>
-   
-           <tr>
-               <td>Get a user by username</td>
-               <td>/users/:Username</td>
-               <td>GET</td>
-               <td>-</td>
-               <td>-</td>
-               <td> A JSON object holding data of a specific user</td>
-           </tr>
-   
+
            <tr>
                <td>Allow new users to register</td>
                <td>/users</td>
@@ -120,7 +93,7 @@
    
            <tr>
                <td>Allow new users update their user info</td>
-               <td>/users/:Username</td>
+               <td>/users/:username</td>
                <td>PUT</td>
                <td>:Username</td>
                <td>-</td>
@@ -148,7 +121,7 @@
    
            <tr>
                <td>Allow existing users to deregister</td>
-               <td>/users/:Username</td>
+               <td>/users/:id</td>
                <td>DELETE</td>
                <td>:Username</td>
                <td>-</td>
