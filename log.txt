@@ -149,3 +149,5 @@
 ::1 - - [25/Jan/2023:09:41:09 +0000] "GET /users HTTP/1.1" 201 2 "-" "PostmanRuntime/7.30.0"
 ::1 - - [25/Jan/2023:09:43:17 +0000] "GET /users HTTP/1.1" 201 2 "-" "PostmanRuntime/7.30.0"
 ::1 - - [25/Jan/2023:09:44:31 +0000] "GET /users HTTP/1.1" 201 2 "-" "PostmanRuntime/7.30.0"
+::1 - - [25/Jan/2023:10:13:27 +0000] "POST /users HTTP/1.1" 400 62 "-" "PostmanRuntime/7.30.0"
+::1 - - [25/Jan/2023:10:13:33 +0000] "POST /users HTTP/1.1" 201 150 "-" "PostmanRuntime/7.30.0"

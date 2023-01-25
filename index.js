@@ -23,36 +23,34 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 
 app.get("/", (req, res) => {
-  res.send("Welcome to my movie app where you can find movies that were the most popular when they came out");
+    res.send("Welcome to my movie app where you can find movies that were the most popular when they came out");
 });
 
 //CREATE NEW USERS & USERS ID 
-app.post('/users', (req, res) => {
-    Users.findOne({ UserName: req.body.UserName})
-    .then((user) =>{ 
-        if(user) {
-            return res.status(400).send(req.body.UserName + ' already exists');
-        } else{ 
-            Users
-            .create({
-                Name: req.params.Name,
-                UserName: req.body.UserName,
-                Password: req.body.Password,
-                Email: req.body.Email,
-                birthday: req.body.Birthday
-            })
-            .then ((user) => { res.status(201).json(user)})
-            .catch((error) => {
-                console.error(error);
-                res.status(500).send( 'Error:' + error)
-            })
+app.post('/users', async (req, res) => {
+    try {
+        const { UserName, Name, Password, Email, Birthday } = req.body;
+
+        const findUser = await Users.findOne({ UserName });
+        if (findUser) {
+            throw `${UserName} already exists`;
         }
-    })
-    .catch((error) => {
-        console.error(error);
-        res.status(500).send('Error: ' + error)
-    }) 
-})
+        const newUser = new Users({
+            Name,
+            UserName,
+            Password,
+            Email,
+            birthday: Birthday
+        });
+        const saveUser = await newUser.save();
+        if (!saveUser) {
+            throw 'Failed to save the user';
+        }
+        return res.status(201).json(saveUser);
+    } catch(error) {
+        res.status(400).send('Error: ' + error)
+    } 
+});
 
 //GET ALL OF THE USERS
 app.get('/users', (req, res) => {
